@@ -2,8 +2,6 @@
 
 import RPi.GPIO as GPIO
 
-GPIO.setwarnings(False)
-
 # Motor driver pins (BCM numbering).
 IN1, IN2, EN1 = 24, 23, 25
 

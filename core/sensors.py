@@ -4,8 +4,6 @@ import time
 
 import RPi.GPIO as GPIO
 
-GPIO.setwarnings(False)
-
 # HC-SR04 sensor pins (BCM numbering).
 TRIG1, ECHO1 = 2, 3
 TRIG2, ECHO2 = 27, 22
